@@ -6,11 +6,11 @@ class Artist
   attr_accessor :name, :songs
 
   def self.all
-    @@all 
+    @@all
   end
 
   def initialize
     save
   end
-  
+
 end
