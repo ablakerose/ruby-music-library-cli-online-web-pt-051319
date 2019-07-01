@@ -11,6 +11,7 @@ class Genre
 
   def initialize
     save
+    @songs = []
   end
 
 end
