@@ -3,7 +3,8 @@ class Song
   extend Persistable::ClassMethods
   extend Nameable::ClassMethods
   include Persistable::InstanceMethods
-  attr_accessor :name, :songs
+  attr_accessor :name
+  attr_reader :genre
 
   def self.all
     @@all
