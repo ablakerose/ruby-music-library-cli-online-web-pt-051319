@@ -10,8 +10,8 @@ module Persistable
       self.all.clear
     end
 
-  def count
-    self.all.size
+    def count
+      self.all.size
+    end
   end
-end
 end
