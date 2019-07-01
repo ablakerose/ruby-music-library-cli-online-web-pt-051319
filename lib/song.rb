@@ -10,6 +10,11 @@ class Song
     @@all
   end
 
+  def genre=(genre)
+    genre.songs << self unless genre.songs.include?(self)
+    @genre = genre
+  end 
+
   def initialize
     save
   end
