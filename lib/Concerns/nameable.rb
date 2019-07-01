@@ -5,4 +5,4 @@ module Nameable
         o.name = name
     end
   end
-end
+
